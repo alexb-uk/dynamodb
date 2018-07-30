@@ -25,13 +25,13 @@
   "license": "MIT",
   "dependencies": {
     "async": "1.5.x",
-    "aws-sdk": "^2.186.x",
     "bunyan": "1.5.x",
     "joi": "10.6.x",
     "lodash": "4.x.x",
     "node-uuid": "1.4.x"
   },
   "devDependencies": {
+    "aws-sdk": "^2.186.x",
     "chai": "1.x.x",
     "istanbul": "^0.3.5",
     "jscoverage": "^0.5.9",
@@ -39,5 +39,8 @@
     "jshint-stylish": "2.x.x",
     "mocha": "2.x.x",
     "sinon": "1.12.x"
+  },
+  "peerDependencies": {
+    "aws-sdk": "2.x"
   }
 }
